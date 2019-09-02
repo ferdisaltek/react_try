@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {FirstComponent} from './first_comp';
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <FirstComponent>this is my fisrt component</FirstComponent>
         <a
           className="App-link"
           href="https://reactjs.org"
