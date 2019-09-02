@@ -2,11 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {FirstComponent} from './first_comp';
-
+import {FirstProps} from './props';
 
 function App() {
 
   const propsabit="this is first prop";
+  const liste=["birinci eleman","ikinci eleman","ücüncü eleman","dördüncü eleman"];
 
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
         <FirstComponent>this is my fisrt component</FirstComponent><br>
         </br>
         <FirstComponent firstprop={propsabit}></FirstComponent>
+        <FirstProps myList={liste}></FirstProps>
         <a
           className="App-link"
           href="https://reactjs.org"
