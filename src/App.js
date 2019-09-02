@@ -5,6 +5,9 @@ import {FirstComponent} from './first_comp';
 
 
 function App() {
+
+  const propsabit="this is first prop";
+
   return (
     <div className="App">
       <header className="App-header">
@@ -12,7 +15,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <FirstComponent>this is my fisrt component</FirstComponent>
+        <FirstComponent>this is my fisrt component</FirstComponent><br>
+        </br>
+        <FirstComponent firstprop={propsabit}></FirstComponent>
         <a
           className="App-link"
           href="https://reactjs.org"
