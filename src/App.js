@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {FirstComponent} from './first_comp';
+import  User from './User';
 import {FirstProps} from './props';
 
 function App() {
@@ -16,8 +17,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        {1+5}
         <FirstComponent>this is my fisrt component</FirstComponent><br>
         </br>
+        <User></User>
         <FirstComponent firstprop={propsabit}></FirstComponent>
         <FirstProps myList={liste}></FirstProps>
         <a
