@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {FirstComponent} from './first_comp';
 import  User from './User';
+import Navbar from './Navbar';
 import {FirstProps} from './props';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar></Navbar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
