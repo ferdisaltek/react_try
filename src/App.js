@@ -4,6 +4,7 @@ import './App.css';
 import {FirstComponent} from './first_comp';
 import  User from './User';
 import Navbar from './Navbar';
+import PropsTry from './PropsTry';
 import {FirstProps} from './props';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar></Navbar>
+      <Navbar title="User App"></Navbar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -25,6 +26,7 @@ function App() {
         <User></User>
         <FirstComponent firstprop={propsabit}></FirstComponent>
         <FirstProps myList={liste}></FirstProps>
+      
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -35,6 +37,11 @@ function App() {
           hello world!!!
         </a>
       </header>
+      <PropsTry
+      name="ferdi"
+        lastname="saltek"
+        department="operasyom"
+     />
     </div>
   );
 }
