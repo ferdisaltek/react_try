@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar title="User App"></Navbar>
+      <Navbar></Navbar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -26,7 +26,7 @@ function App() {
         <User></User>
         <FirstComponent firstprop={propsabit}></FirstComponent>
         <FirstProps myList={liste}></FirstProps>
-      
+      <Navbar title="ferdi"/> 
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -38,9 +38,9 @@ function App() {
         </a>
       </header>
       <PropsTry
-      name="ferdi"
+        name="ferdi"
         lastname="saltek"
-        department="operasyom"
+             department="operasyom"
      />
     </div>
   );
