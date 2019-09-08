@@ -17,6 +17,12 @@ function App() {
       <Navbar></Navbar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <a
+          className="App_new"
+          href="http://localhost:3000/ferdi"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -29,10 +35,16 @@ function App() {
       <Navbar title="ferdi"/> 
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="http://localhost:3000/ferdi"
           target="_blank"
           rel="noopener noreferrer"
         >
+           <a
+          className="App_new"
+          href="http://localhost:3000/ferdi"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
           Learn React 
           hello world!!!
         </a>
