@@ -13,28 +13,15 @@ function App_new() {
   const liste=["birinci eleman","ikinci eleman","ücüncü eleman","dördüncü eleman"];
 
   return (
-    <div className="App_new">
-      <Navbar></Navbar>
-    
-        <p>
-          Edit <code>src/App.test.js</code> and save to reload.
-        </p>
+    <div >
      
-        <User></User>
-        <FirstComponent firstprop={propsabit}></FirstComponent>
-        <FirstProps myList={liste}></FirstProps>
-      <Navbar title="ferdi"/> 
         <a
           className="App-link"
           href="http://localhost:3000/ferdi"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React 
-          hello world!!!
-        </a>
-      </header>
-      
+        
     </div>
   );
 }

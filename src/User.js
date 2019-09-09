@@ -17,6 +17,11 @@ constructor (props){
                     <button>gönder</button>
                     <p>{this.state.test}</p>
                 </form>
+                <br></br>
+                <br>
+            </br>
+
+            
             </div>
         )
     }

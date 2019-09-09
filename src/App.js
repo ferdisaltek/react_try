@@ -39,12 +39,6 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-           <a
-          className="App_new"
-          href="http://localhost:3000/ferdi"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
           Learn React 
           hello world!!!
         </a>
