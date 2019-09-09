@@ -5,6 +5,7 @@ import {FirstComponent} from './first_comp';
 import  User from './User';
 import Navbar from './Navbar';
 import PropsTry from './PropsTry';
+import AddUser from './AddUsers';
 import {FirstProps} from './props';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+      <AddUser></AddUser>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <a
