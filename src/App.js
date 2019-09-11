@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <AddUser></AddUser>
-      <header className="App-header">
+      <header className="App-header" >
         <img src={logo} className="App-logo" alt="logo" />
         <a
           className="App_new"
