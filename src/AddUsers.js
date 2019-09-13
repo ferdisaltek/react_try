@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import posed from  'react-pose';
 
+
 const Animation=posed.div({
     visible: { opacity: 1 },
     hidden: { opacity: 0 }

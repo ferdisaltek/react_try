@@ -6,7 +6,10 @@ import  User from './User';
 import Navbar from './Navbar';
 import PropsTry from './PropsTry';
 import AddUser from './AddUsers';
+import Test from './component/Test';
 import {FirstProps} from './props';
+
+var uniqid = require('uniqid');
 
 function App() {
 
@@ -16,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+       <Test test="deneme"/>
       <AddUser></AddUser>
       <header className="App-header" >
         <img src={logo} className="App-logo" alt="logo" />
@@ -24,7 +28,7 @@ function App() {
           href="http://localhost:3000/ferdi"
           target="_blank"
           rel="noopener noreferrer"
-        ></a>
+        ></a>   console.log(uniqid());
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -47,6 +51,7 @@ function App() {
       </header>
       <PropsTry
         name="ferdi"
+
         lastname="saltek"
              department="operasyom"
      />
