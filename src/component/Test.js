@@ -19,6 +19,10 @@ export default class Test extends Component {
             a:20
         })
     }
+
+componentDidUpdate =() =>{
+    console.log("componentdidupdate");
+}
     
 
     render() {
