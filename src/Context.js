@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import axios from 'axios';
 
 const UserContext=React.createContext();
 //provider , consumer 
@@ -14,6 +15,19 @@ export default class UserProvider extends Component {
             }
         ]
     }
+
+    componentDidMount= async() => {
+
+      const response= await axios.get("http://localhost:3001/posts")
+      console.log(response);
+      this.setState(
+          {
+              users:response.data
+          }
+      )
+    }
+
+
     render() {
         return (
             <UserContext.Provider value={this.state}>

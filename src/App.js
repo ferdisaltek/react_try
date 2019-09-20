@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {FirstComponent} from './first_comp';
 import  User from './User';
+import Context from './Context';
 import Navbar from './Navbar';
 import PropsTry from './PropsTry';
 import AddUser from './AddUsers';
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <Context classname="users"></Context>
       <Navbar></Navbar>
        <Test test="deneme"/>
       <AddUser></AddUser>
